@@ -7,6 +7,7 @@ const text = document.querySelector(".inner");
 bg.addEventListener('click', (e) => {
     bg.classList.add("hide-bg")
     text.classList.remove("show-text")
+    text.classList.remove("hide-pointer")
 });
 
 

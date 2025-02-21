@@ -40,12 +40,26 @@ body {
     filter:blur(5px);
 }
 
+a {
+    color: aliceblue;
+    text-decoration: inherit;
+    
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 .inner h3 {
     text-shadow: 2px 2px 5px black;
     margin-top: 0;
     margin-bottom: 12px;
 }
 
-.inner h3:first-child{
+.inner a:first-child{
     margin-top: 80px;
+}
+
+.hide-pointer {
+    pointer-events: none;
 }
