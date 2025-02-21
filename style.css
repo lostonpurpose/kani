@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     transition: filter 1.5s;
+    
 }
 
 
@@ -29,7 +30,7 @@ body {
     color: aliceblue;
     position: absolute;
     text-align: center;
-    top: 80%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: filter 1.5s;
@@ -40,5 +41,11 @@ body {
 }
 
 .inner h3 {
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.inner h3:first-child{
+    margin-top: 80px;
 }
